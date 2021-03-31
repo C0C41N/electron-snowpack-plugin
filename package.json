@@ -1,0 +1,14 @@
+{
+	"name": "electron-snowpack-plugin",
+	"version": "1.0.0",
+	"description": "Plugin for electron app powered by snowpack.",
+	"main": "index.js",
+	"scripts": {},
+	"author": "C0C41N",
+	"license": "MIT",
+	"dependencies": {
+		"execa": "^5.0.0",
+		"fs": "^0.0.1-security",
+		"npm-run-path": "^4.0.1"
+	}
+}

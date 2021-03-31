@@ -1,5 +1,5 @@
 {
-	"name": "electron-snowpack-plugin",
+	"name": "@c0c41n/electron-snowpack-plugin",
 	"version": "1.0.0",
 	"description": "Plugin for electron app powered by snowpack.",
 	"main": "index.js",
@@ -10,5 +10,9 @@
 		"execa": "^5.0.0",
 		"fs": "^0.0.1-security",
 		"npm-run-path": "^4.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/C0C41N/electron-snowpack-plugin.git"
 	}
 }

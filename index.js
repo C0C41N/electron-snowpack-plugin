@@ -1,16 +1,5 @@
 const execa = require('execa');
 const npmRunPath = require('npm-run-path');
-const { readFileSync, writeFileSync } = require('fs');
-
-const replaceFileString = async (file, str, rep) => {
-	try {
-		const content = readFileSync(file, 'utf8');
-		const regEx = RegExp(str, 'g');
-		writeFileSync(file, content.replace(regEx, rep), 'utf8');
-	} catch (e) {
-		console.log(`replaceFileString: ${e}`);
-	}
-};
 
 module.exports = function (snowpackConfig, pluginOptions) {
 	return {

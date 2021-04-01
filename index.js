@@ -16,12 +16,6 @@ module.exports = function (snowpackConfig, pluginOptions) {
 	return {
 		name: 'electron-snowpack-plugin',
 
-		async optimize({ buildDirectory }) {
-			// fixing html
-			const html = `${buildDirectory}\\index.html`;
-			await replaceFileString(html, 'href="/', 'href="');
-		},
-
 		async run({ isDev, log }) {
 			if (!isDev) return;
 

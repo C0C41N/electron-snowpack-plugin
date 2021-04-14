@@ -8,8 +8,10 @@
 	"license": "MIT",
 	"dependencies": {
 		"execa": "^5.0.0",
-		"fs": "^0.0.1-security",
-		"npm-run-path": "^4.0.1"
+		"glob": "^7.1.6",
+		"imurmurhash": "^0.1.4",
+		"npm-run-path": "^4.0.1",
+		"rimraf": "^3.0.2"
 	},
 	"repository": {
 		"type": "git",
